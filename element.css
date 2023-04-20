@@ -135,8 +135,12 @@
     color: rgb(5, 34, 74);
 }
 
-#POPUP857 > .ladi-popup > .ladi-popup-background, #SECTION26 > .ladi-section-background, #BOX46 > .ladi-box, #BOX951 > .ladi-box, #SECTION585 > .ladi-section-background {
+#POPUP857 > .ladi-popup > .ladi-popup-background, #BOX951 > .ladi-box, #SECTION585 > .ladi-section-background {
     background-color: rgb(0, 135, 193);
+}
+
+#SECTION26 > .ladi-section-background, #BOX46 > .ladi-box {
+    background-color: #EEB90B;
 }
 
 #HEADLINE858 > .ladi-headline {
@@ -412,6 +416,10 @@
     fill: rgb(255, 255, 255);
 }
 
+#SHAPE839 svg:last-child, #SHAPE842 svg:last-child, #SHAPE856 svg:last-child, #SHAPE874 svg:last-child, #IMAGE877 > .ladi-image > .ladi-image-background {
+    fill: black;
+}
+
 #BUTTON29 > .ladi-button, #BUTTON32 > .ladi-button, #BUTTON34 > .ladi-button, #BUTTON36 > .ladi-button, #BUTTON38 > .ladi-button {
     border-width: 1px;
     border-radius: 100px;
@@ -490,9 +498,9 @@
 }
 
 #SECTION40 > .ladi-section-background {
-    background-image: url("https://eneu.edu.vn/images/accomplishment-ceremony-education-graduation-267885_v2%20(minimized).png");
+    background-image: url("https://images.pexels.com/photos/8093042/pexels-photo-8093042.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
-    background-position: 0% 100%;
+    background-position: 80% 100%;
     background-repeat: repeat;
     background-attachment: fixed;
 }
@@ -654,7 +662,7 @@
 }
 
 #BOX501 > .ladi-box {
-    background-image: url("https://eneu.edu.vn/images/asian%20woman%20with%20wings_v2%20(minimized).png");
+    background-image: url("https://img.freepik.com/premium-vector/illustration-confused-woman_478440-470.jpg?w=2000");
     background-size: cover;
     background-origin: content-box;
     background-position: 50% 0%;
@@ -686,7 +694,7 @@
 }
 
 #IMAGE98 > .ladi-image > .ladi-image-background {
-    background-image: url("https://eneu.edu.vn/images/mai-van-hai.png");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_cAgrYEv35yqSYNKFHw5A3Jto79Oabgkbwg&usqp=CAU");
 }
 
 #IMAGE98 > .ladi-image, #IMAGE105 > .ladi-image, #IMAGE112 > .ladi-image {
@@ -720,7 +728,9 @@
 }
 
 #IMAGE105 > .ladi-image > .ladi-image-background {
-    background-image: url("https://eneu.edu.vn/images/hoang-ngoc-lan.png");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUTlSDBcUZuC7MSlE3Jez72aMlyfgkVMf68A&usqp=CAU");
+    background-size: 200%;
+    background-position: 40% 0%;
 }
 
 #FRAME101 {
@@ -733,7 +743,9 @@
 }
 
 #IMAGE112 > .ladi-image > .ladi-image-background {
-    background-image: url("https://eneu.edu.vn/images/nguyen-thi-ha.png");
+    background-image: url("https://img.freepik.com/premium-photo/waist-up-portrait-confident-smart-talented-asian-businessman_1258-10343.jpg?w=2000");
+    background-size: 170%;
+    background-position: 60% 0%;
 }
 
 #FRAME108 {
@@ -1899,12 +1911,12 @@
 }
 
 #IMAGE916 > .ladi-image > .ladi-image-background, #IMAGE1063 > .ladi-image > .ladi-image-background, #IMAGE877 > .ladi-image > .ladi-image-background {
-    background-image: url("https://w.ladicdn.com/s350x350/5ccffec5c2076e52d083379f/artboard-1-20200702042203.png");
+    background-image: url("https://www.ozeo.vn/wp-content/uploads/2020/05/icons9-zalo.svg");
 }
 
 #SECTION835 > .ladi-section-background {
-    background-image: linear-gradient(rgb(11, 166, 232), rgb(5, 99, 140));
-    background-color: initial;
+    /*background-image: linear-gradient(rgb(11, 166, 232), #EEB90B);*/
+    background-color: #EEB90B;
     background-size: initial;
     background-origin: initial;
     background-position: initial;
@@ -1924,7 +1936,7 @@
 #HEADLINE838 > .ladi-headline, #HEADLINE841 > .ladi-headline, #HEADLINE855 > .ladi-headline, #HEADLINE873 > .ladi-headline, #HEADLINE844 > .ladi-headline {
     font-size: 12px;
     line-height: 1.6;
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 #SHAPE839, #SHAPE842, #SHAPE856, #SHAPE874 {
