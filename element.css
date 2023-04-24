@@ -69,7 +69,7 @@
 #HEADLINE810 > .ladi-headline, #HEADLINE74 > .ladi-headline, #HEADLINE75 > .ladi-headline, #HEADLINE80 > .ladi-headline, #HEADLINE496 > .ladi-headline, #HEADLINE83 > .ladi-headline, #HEADLINE87 > .ladi-headline, #HEADLINE90 > .ladi-headline, #HEADLINE499 > .ladi-headline {
     font-weight: bold;
     line-height: 1.6;
-    color: rgb(244, 64, 37);
+    color: rgb(0,41,96);
 }
 
 #HEADLINE811, #PARAGRAPH402, #PARAGRAPH420, #PARAGRAPH413 {
@@ -92,7 +92,7 @@
 }
 
 #IMAGE823 > .ladi-image > .ladi-image-background {
-    background-image: url("https://eneu.edu.vn/images/DSC_2112%20(Copy)%20(minimized).jpg");
+    background-image: url("./img/24c0d63aca3f15614c2e.jpg");
 }
 
 #IMAGE823 > .ladi-image {
@@ -662,7 +662,7 @@
 }
 
 #BOX501 > .ladi-box {
-    background-image: url("https://img.freepik.com/premium-vector/illustration-confused-woman_478440-470.jpg?w=2000");
+    background-image: url("./img/341797606_174631025525770_377569991058439325_n.png");
     background-size: cover;
     background-origin: content-box;
     background-position: 50% 0%;
