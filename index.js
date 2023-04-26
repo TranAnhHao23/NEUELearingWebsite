@@ -83,34 +83,36 @@ gtm(window, document, 'script', 'dataLayer', 'GTM-N4T2733');
 
 <!--Start of Tawk.to Script-->
 // Load Tawk.to script
-var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-(function () {
-    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-    s1.async = true;
-    s1.src = "https://embed.tawk.to/5f054b5c760b2b560e6ff158/default";
-    s1.charset = "UTF-8";
-    s1.setAttribute("crossorigin", "*");
-    s0.parentNode.insertBefore(s1, s0);
+<!--Start of Tawk.to Script-->
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/644935b931ebfa0fe7fa9079/1guuvjnop';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+<!--End of Tawk.to Script-->
 })();
 
 //Track chat starting event
 Tawk_API.onChatStarted = function () {
     gtag('event', 'BatDauChat', {
-        'event_category': 'tawkto', 'event_label': 'eneu.edu.vn',
+        'event_category': 'tawkto', 'event_label': 'neu-elearning.edu.vn',
     });
 };
 
 //Track chat ending event
 Tawk_API.onChatEnded = function () {
     gtag('event', 'KetThucChat', {
-        'event_category': 'tawkto', 'event_label': 'eneu.edu.vn',
+        'event_category': 'tawkto', 'event_label': 'neu-elearning.edu.vn',
     });
 };
 
 //Track offline message
 Tawk_API.onOfflineSubmit = function (data) {
     gtag('event', 'TinNhanOffline', {
-        'event_category': 'tawkto', 'event_label': 'eneu.edu.vn',
+        'event_category': 'tawkto', 'event_label': 'neu-elearning.edu.vn',
     });
 };
 //More tawk.to events triggered by the tawk.to API https://www.tawk.to/javascript-api/
